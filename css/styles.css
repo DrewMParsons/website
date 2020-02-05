@@ -1,0 +1,61 @@
+
+/* Text align center will center eveything that doesnt have a defined width
+  You can make sure individual elements are centered by setting l & r margin to auto */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-container {
+  margin: 0;
+  background-color: #e5dfdf;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  /* margin: 0; */
+  /* Because it has a width set, we need to set margins to auto to center element */
+  /* width: 10%; */
+  margin: 0 auto;
+  font-family: 'Courgette', cursive;
+}
+
+h2, h3, p{
+  /* fonts copied from  googlefonts */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* .bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+} */
+
+/* .mid-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+} */
+.span
+{
+  text-decoration: underline;
+}
+
+/* Parent div position is set to relative, so setting this elements to absolute
+sets them to absolute against the parent div */
+.bottom-cloud
+{
+  position: absolute;
+  left:200px;
+  bottom: 300px;
+
+}
+.top-cloud
+{
+  position: absolute;
+  right: 200px;
+  top:50px;
+
+}
